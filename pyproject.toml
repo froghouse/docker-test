@@ -5,9 +5,6 @@ description = "My first docker project"
 authors = ["Tomas <tomas.landberg@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [
-    { include = "webapp", from = "." }
-]
 
 [tool.poetry.dependencies]
 python = "^3.13"
